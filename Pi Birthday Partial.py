@@ -207,65 +207,7 @@ def print_PixelArt(List):
             pixel_x += 1
         pixel_y -= 1
 
-
-#by @ChrisPenn84
-mc.postToChat("Pi Birthday 3/4th March 2018... happy Birthday RPI!")
-time.sleep(1)
-mc.postToChat("5")
-time.sleep(1)
-mc.postToChat("4")
-time.sleep(1)
-mc.postToChat("3")
-time.sleep(1)
-mc.postToChat("2")
-time.sleep(1)
-mc.postToChat("1")
-time.sleep(1)
-mc.postToChat("Go... press button a to start the celebrations")
-time.sleep(1)
+#====================Your code goes below===============
 
 
-#by @ChrisPenn84 
-while True:
 
-    if microbit.button_a.was_pressed():
-        #candle colours alternate between orange and red
-        print_PixelArt(Cake1)
-        time.sleep(2)
-        print_PixelArt(Cake2)
-        time.sleep(2)
-        print_PixelArt(Cake1)
-        time.sleep(2)
-        print_PixelArt(Cake2)
-        time.sleep(2)
-        print_PixelArt(Cake1)
-        time.sleep(2)
-        print_PixelArt(Cake2)
-        time.sleep(2)
-        mc.postToChat("Now celebrate with some MC Pixel cakes press b")
-
-    if microbit.button_b.was_pressed():
-        mc.postToChat("Happy Birthday RPI here is some pixel cakes :)")
-        #candle colours alternate between orange and red
-        print_PixelArt(Alex1)
-        time.sleep(2)
-        print_PixelArt(Alex2)
-        time.sleep(2)
-        print_PixelArt(Pig1)
-        time.sleep(2)
-        print_PixelArt(Pig2)
-        time.sleep(2)
-        print_PixelArt(Steve1)
-        time.sleep(2)
-        print_PixelArt(Steve2)
-        time.sleep(2)
-        print_PixelArt(Creeper1)
-        time.sleep(2)
-        print_PixelArt(Creeper2)
-        time.sleep(2)
-        print_PixelArt(Cake1)
-        time.sleep(2)
-        print_PixelArt(Cake2)
-        time.sleep(2)
-        #Final birthday message.
-        mc.postToChat("Happy Birthday!!!")
